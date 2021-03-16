@@ -10,8 +10,8 @@ from operator import attrgetter
 import os
 import sys
 
-from compat import unittest
-from support import DistlibTestCase
+from .compat import unittest
+from .support import DistlibTestCase
 
 from distlib import DistlibException
 from distlib.resources import finder, finder_for_path, ResourceCache

@@ -12,7 +12,7 @@ import os
 import sys
 from textwrap import dedent
 
-from compat import unittest
+from .compat import unittest
 
 from distlib import __version__
 from distlib.compat import StringIO
@@ -21,7 +21,7 @@ from distlib.metadata import (LegacyMetadata, Metadata, METADATA_FILENAME,
                               MetadataMissingError, MetadataUnrecognizedVersionError,
                               MetadataInvalidError, _ATTR2FIELD)
 
-from support import LoggingCatcher, TempdirManager, DistlibTestCase
+from .support import LoggingCatcher, TempdirManager, DistlibTestCase
 
 
 HERE = os.path.abspath(os.path.dirname(__file__))

@@ -23,10 +23,10 @@ except ImportError:
     import dummy_threading as threading
 import time
 
-from compat import unittest, Request
-from support import DistlibTestCase
+from .compat import unittest, Request
+from .support import DistlibTestCase
 if ssl:
-    from support import HTTPSServerThread
+    from .support import HTTPSServerThread
 
 from distlib import DistlibException
 from distlib.compat import urlopen, HTTPError, URLError

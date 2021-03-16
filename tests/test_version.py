@@ -5,8 +5,8 @@
 """Tests for distlib.version."""
 import doctest
 
-from compat import unittest
-from support import DistlibTestCase
+from .compat import unittest
+from .support import DistlibTestCase
 
 from distlib.version import (NormalizedVersion as NV, NormalizedMatcher as NM,
                              UnsupportedVersionError,

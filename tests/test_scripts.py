@@ -17,8 +17,8 @@ try:
 except ImportError:
     venv = None
 
-from compat import unittest
-from support import DistlibTestCase
+from .compat import unittest
+from .support import DistlibTestCase
 
 from distlib.compat import fsencode, sysconfig
 from distlib.scripts import ScriptMaker, enquote_executable

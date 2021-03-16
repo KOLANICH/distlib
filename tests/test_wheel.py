@@ -14,8 +14,8 @@ import subprocess
 import sys
 import tempfile
 
-from compat import unittest
-from support import DistlibTestCase
+from .compat import unittest
+from .support import DistlibTestCase
 
 from distlib import DistlibException
 from distlib.compat import ZipFile, sysconfig, fsencode

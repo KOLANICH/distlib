@@ -9,8 +9,8 @@ import logging.handlers
 import os
 import re
 
-from compat import unittest
-from support import DistlibTestCase
+from .compat import unittest
+from .support import DistlibTestCase
 
 from distlib import DistlibException
 from distlib.manifest import Manifest

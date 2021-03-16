@@ -21,7 +21,7 @@ except ImportError:
     import dummy_threading as threading
 import weakref
 
-from compat import (unittest, HTTPServer as BaseHTTPServer,
+from .compat import (unittest, HTTPServer as BaseHTTPServer,
                     SimpleHTTPRequestHandler, urlparse)
 
 from distlib import logger

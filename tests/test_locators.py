@@ -13,8 +13,8 @@ except ImportError:
     ssl = None
 import sys
 
-from compat import unittest
-from support import DistlibTestCase
+from .compat import unittest
+from .support import DistlibTestCase
 
 from distlib.compat import url2pathname, urlparse
 from distlib.database import (Distribution, DistributionPath, make_graph,

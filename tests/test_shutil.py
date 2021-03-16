@@ -16,8 +16,8 @@ import stat
 import sys
 import tempfile
 
-from compat import unittest, find_executable, spawn
-from support import DistlibTestCase
+from .compat import unittest, find_executable, spawn
+from .support import DistlibTestCase
 
 from distlib._backport import shutil, tarfile
 from distlib._backport.shutil import (
@@ -27,7 +27,7 @@ from distlib._backport.shutil import (
     Error, RegistryError)
 from distlib.compat import StringIO
 
-import support
+from . import support
 
 try:
     import grp

@@ -11,7 +11,7 @@ import sys
 import subprocess
 import tempfile
 
-from compat import unittest
+from .compat import unittest
 
 from distlib._backport import shutil
 from distlib._backport import sysconfig

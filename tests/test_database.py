@@ -16,7 +16,7 @@ import shutil
 import sys
 import tempfile
 
-from compat import unittest
+from .compat import unittest
 
 from distlib import DistlibException
 from distlib.compat import text_type, StringIO
@@ -27,8 +27,8 @@ from distlib.database import (InstalledDistribution, EggInfoDistribution,
                               get_required_dists, get_dependent_dists)
 from distlib.util import get_resources_dests, CSVReader, read_exports
 
-from test_util import GlobTestCaseBase
-from support import LoggingCatcher, requires_zlib, DistlibTestCase
+from .test_util import GlobTestCaseBase
+from .support import LoggingCatcher, requires_zlib, DistlibTestCase
 
 logger = logging.getLogger(__name__)
 

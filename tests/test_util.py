@@ -18,8 +18,8 @@ import tempfile
 import textwrap
 import time
 
-from compat import unittest
-from support import TempdirManager, DistlibTestCase
+from .compat import unittest
+from .support import TempdirManager, DistlibTestCase
 
 from distlib import DistlibException
 from distlib.compat import cache_from_source

@@ -8,8 +8,8 @@ import os
 import sys
 import platform
 
-from compat import unittest
-from support import DistlibTestCase
+from .compat import unittest
+from .support import DistlibTestCase
 
 from distlib.compat import python_implementation
 from distlib.markers import interpret
